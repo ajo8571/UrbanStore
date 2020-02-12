@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #778092;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+
 }
 
 .App-link {
@@ -31,3 +33,43 @@
     transform: rotate(360deg);
   }
 }
+
+.row-header{
+  text-align: center;
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:900px;
+}
+
+.footer{
+  background-color: #0f0f0f;
+  margin:0px;
+  padding: 20px 0px 20px 0px;
+  color:floralwhite;
+  max-height: 400px;
+  
+}
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #0f0f0f;
+  color:floralwhite;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: rgb(0, 0, 0);
+}
+
+
